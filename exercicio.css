@@ -1,0 +1,53 @@
+body {
+    background-color: black;
+    background-image: url(imagens/teias.jpg);
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center; /* centraliza horizontal */
+    align-items: center;
+    background-image: url(/images/futt.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    min-height: 100vh;
+    margin: 0;
+ 
+}
+
+.container {
+    background-color: white;
+    width: 500px;
+    margin: 10% auto;
+    text-align: center;
+    color: rgba(255, 255, 255, .3);
+    background: #1a1a1a;
+    text-shadow: 0 0 15px rgba(255, 255, 255, .5), 0 0 10px rgba(255, 255, 255, .5);
+    border-radius: 10px;
+    box-shadow: 3px 3px 3px 3px;
+    padding: 30px;
+    background-image: url(imagens/teias3.jpg);
+}
+
+.imagem img {
+    border-radius: 50%;
+}
+
+.botao{
+    background-color: gray;
+    width: 20%;
+    margin: 0 auto;
+    text-align: center;
+    color: rgba(255, 255, 255, .3);
+    background: #1a1a1a;
+    text-shadow: 0 0 15px rgba(255, 255, 255, .5), 0 0 10px rgba(255, 255, 255, .5);
+    border-radius: 5px;
+    box-shadow: 3px 3px 3px 3px;
+    padding: 10px;
+}
+.botao:hover {
+    background-color: gray;
+    transition: background-color 0.3s ease;/*Suavizar o botão*/
+    transform: scale(1.1);/*Aumenta o tamanho do botão*/
+}

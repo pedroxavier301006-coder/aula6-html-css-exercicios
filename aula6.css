@@ -1,0 +1,13 @@
+.conteudo {
+    background-color: tomato;
+    width: 50%;
+    margin: 0 auto;
+    height: 250px;
+    font-size: 80px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 20px;
+    /*Arredonda borda*/
+    -webkit-box-shadow: 0px 0px 0px 8px #000000, 0px 0px 0px 16px #4B4C4B, 0px 0px 0px 24px #828482, 0px 0px 0px 31px #B2B5B2, 0px 0px 0px 39px #DADDDA, 35px -17px 23px 27px rgba(0, 0, 0, 0.81);
+    box-shadow: 0px 0px 0px 8px #000000, 0px 0px 0px 16px #4B4C4B, 0px 0px 0px 24px #828482, 0px 0px 0px 31px #B2B5B2, 0px 0px 0px 39px #DADDDA, 35px -17px 23px 27px rgba(0, 0, 0, 0.81);
+}
